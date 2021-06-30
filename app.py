@@ -8,8 +8,6 @@ def main():
     venv = sys.argv[1]
     db_details = DB_DETAILS[venv]
     tables = get_tables('table_list.txt')
-    for table in tables['table_name']:
-        print(table)
 
 
 if __name__ == '__main__':
